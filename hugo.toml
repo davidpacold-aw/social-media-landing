@@ -1,6 +1,6 @@
 # ! Change this to be your URL and Name ! 
-baseurl      = "YourSiteURL.GoesHere"
-title        = "Your Page title goes here, for example use your Name"
+baseurl      = "example.com"
+title        = "John Doe"
 languageCode = "en-us"
 theme        = "hello-friend-ng"
 paginate     = 10
@@ -15,7 +15,7 @@ paginate     = 10
   dateformNumTime = "2006-01-02 15:04"
 
   # Subtitle for home ! Change this if you wish ! 
-  homeSubtitle = "This is a the homeSubtitle that is placed on the page, something like 'where to find me'"
+  homeSubtitle = "Where to find me"
 
 
   # Metadata mostly used in document's head ! Change this if you wish !
@@ -25,7 +25,7 @@ paginate     = 10
 
 [author]
 # ! Change this !
-  name = "Put your Name here"
+  name = "John Doe"
 
  # Custom footer 
   # If you want, you can easily override the default footer with your own content. 
@@ -50,30 +50,30 @@ paginate     = 10
 [languages]
   [languages.en]
     # ! Change this if you wish !
-    title = "This is the title field, that is placed on the page, something like 'Connect with me'"
+    title = "Connect with me"
     subtitle = "My links"
     keywords = ""
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 
     [languages.en.params.logo]
     # ! Change this !
-      logoText = "This is the logoText field, that is placed on the page, something like 'Your Name'"
+      logoText = "John Doe"
       logoHomeLink = "/"
 
   # ! Change these !
   # Social icons
   [[params.social]]
     name = "twitter"
-    url  = "yourtwitterurl.com"
+    url  = "twitter.com/johndoe"
 
   [[params.social]]
     name = "email"
-    url  = "mailto:youremail@dot.com"
+    url  = "mailto:johndoe@example.com"
 
   [[params.social]]
     name = "github"
-    url  = "yourGithubURL.com or remove block"
+    url  = "example.com"
 
   [[params.social]]
     name = "linkedin"
-    url  = "your LinkedinURL.com or remove"
+    url  = "example.com"
