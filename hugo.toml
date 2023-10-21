@@ -1,5 +1,5 @@
 # ! Change this to be your URL and Name ! 
-baseurl      = "example.com"
+baseurl      = "https://social-media-landing-5xw.pages.dev"
 title        = "John Doe"
 languageCode = "en-us"
 theme        = "hello-friend-ng"
