@@ -1,12 +1,12 @@
 # ! Change this to be your URL and Name ! 
-baseurl      = "https://connectwith.davidpacold.dev"
-title        = "David Pacold"
+baseurl      = "YourSiteURL.GoesHere"
+title        = "Your Page title goes here, for example use your Name"
 languageCode = "en-us"
 theme        = "hello-friend-ng"
 paginate     = 10
 
 # Google Analytics - ! Change this to be your ID or remove ! 
-  googleAnalytics = 'G-GHBQN6V1R2'
+#  googleAnalytics = 'If you have a Tag ID, place it here and uncomment this line'
 
 [params]
   dateform        = "Jan 2, 2006"
@@ -15,7 +15,7 @@ paginate     = 10
   dateformNumTime = "2006-01-02 15:04"
 
   # Subtitle for home ! Change this if you wish ! 
-  homeSubtitle = "Where to find me"
+  homeSubtitle = "This is a the homeSubtitle that is placed on the page, something like 'where to find me'"
 
 
   # Metadata mostly used in document's head ! Change this if you wish !
@@ -25,7 +25,7 @@ paginate     = 10
 
 [author]
 # ! Change this !
-  name = "David Pacold"
+  name = "Put your Name here"
 
  # Custom footer 
   # If you want, you can easily override the default footer with your own content. 
@@ -50,30 +50,30 @@ paginate     = 10
 [languages]
   [languages.en]
     # ! Change this if you wish !
-    title = "Connect with me"
+    title = "This is the title field, that is placed on the page, something like 'Connect with me'"
     subtitle = "My links"
     keywords = ""
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 
     [languages.en.params.logo]
     # ! Change this !
-      logoText = "David Pacold"
+      logoText = "This is the logoText field, that is placed on the page, something like 'Your Name'"
       logoHomeLink = "/"
 
   # ! Change these !
   # Social icons
   [[params.social]]
     name = "twitter"
-    url  = "https://bsky.davidpacold.dev"
+    url  = "yourtwitterurl.com"
 
   [[params.social]]
     name = "email"
-    url  = "mailto:dpacold@cloudflare.com"
+    url  = "mailto:youremail@dot.com"
 
   [[params.social]]
     name = "github"
-    url  = "https://github.com/davidpacold"
+    url  = "yourGithubURL.com or remove block"
 
   [[params.social]]
     name = "linkedin"
-    url  = "https://www.linkedin.com/in/davidpacold"
+    url  = "your LinkedinURL.com or remove"
